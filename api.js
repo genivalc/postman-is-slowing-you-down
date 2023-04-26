@@ -3,7 +3,7 @@ import { once } from 'node:events'
 import { createServer } from 'node:http'
 
 const VALID = {
-  user: 'erickwendel',
+  user: 'genival',
   password: '123'
 }
 const TOKEN_KEY = "abc123"
