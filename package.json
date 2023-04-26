@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch api.js"
+  },
+  "engines": {
+    "node": "19"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/genivalc/postman-is-slowing-you-down.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Genival Neto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/genivalc/postman-is-slowing-you-down/issues"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
   },
   "homepage": "https://github.com/genivalc/postman-is-slowing-you-down#readme"
 }
